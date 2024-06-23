@@ -1,0 +1,72 @@
+:root{
+    --bg-color-1 : ;
+    --bg-color-2 : ;
+    --bg-color-3 : ;
+    --text-color : rgb(145, 175, 182) ;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar ul{
+    list-style-type:none;
+}
+.navbar a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(85, 98, 106);
+}
+.navbar li{
+    float: left;
+    padding: 12px; 
+}
+.navbar a:hover{
+    color: var(--text-color);
+}
+.heading{
+    text-align: center;
+    font-size: 65px;
+    font-family: poppins;
+    color: var(--text-color);
+    font-weight: 1000;
+    word-spacing: 30px;
+}
+.bodytext{
+    text-align: center;
+    font-size: 25px;
+    font-family: poppins;
+    color: var(--text-color);
+    font-weight: 1000;
+    word-spacing: 10px;
+}
+.box-container{
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    width: 95vw;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box{
+    flex: 0 0 22%;
+    margin: 1%;
+    box-sizing: border-box;
+    height:220px;
+    width:220px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.020);
+    backdrop-filter: blur(10px);
+    font-family: Poppins;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.box:hover{
+    font-size: large;
+    color: rgb(19, 85, 146);
+}
